@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #C06C84;
+    font-family: 'Tilt Neon', cursive;
+}
+
+.mainContainer {
+    width: 100%;
+    text-align: center;
+    margin-top: 10%;
+}
+
+
+#baslik {
+    text-align: center;
+    font-size: 50px;
+    color: #EFE7CC;
+}
+
+
+#giris {
+    width: 300px;
+    height: 46px;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+    border: 3px solid #330136;
+    border-radius: 15px;
+    color: #355C7D;
+    font-family: 'Tilt Neon', cursive;
+}
+
+#ekle {
+    height: 46px;
+    width: 80px;
+    vertical-align: middle;
+    font-size: 25px;
+    outline: none;
+    cursor: pointer;
+    background-color: #6C5B7B;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Tilt Neon', cursive;
+    margin-left: 0.5px;
+    border: 3px solid #F29999;
+}
+
+#ekle:active {
+    background: blue;
+}
+
+#sil {
+    margin-left: 0.5px;
+    height: 45px;
+    width: 100px;
+    border: 3px solid #F29999;
+    vertical-align: middle;
+    font-size: 25px;
+    outline: none;
+    cursor: pointer;
+    background-color: #F67280;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Tilt Neon', cursive;
+}
+
+#sil:active {
+    background: black;
+}
+
+.paragraph-styling {
+    margin: 0;
+    cursor: pointer;
+    font-size: 35px;
+    color: purple;
+    text-transform: capitalize;
+}
+
+.girisler {
+    margin-top: 50px;
+}
+
+/* ----------------------------------------------------------------Buton Özelleştirmesi---------------------------- */
+
+
+
+.btn:link,
+.btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    border: 1px solid;
+    border-radius: 1000px;
+    display: inline-block;
+    transition: all .2s;
+    position: relative;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(27, 27, 27, .5);
+}
+
+.btn:active {
+    transform: translateY(-3px);
+}
+
+.btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+    transition: all .3s;
+}
+
+/* Saat */
+
+#saat {
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+}
